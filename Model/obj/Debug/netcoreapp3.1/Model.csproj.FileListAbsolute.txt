@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Model.runtimeconfig.json
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Model.runtimeconfig.dev.json
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Phramacy New\Model\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.csproj.CopyComplete
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.pdb
+C:\Users\user\Desktop\Phramacy New\Model\obj\Debug\netcoreapp3.1\Model.genruntimeconfig.cache

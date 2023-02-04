@@ -1,0 +1,61 @@
+﻿<link rel="stylesheet" href="~/css/card.css" />
+
+@model Entities.Medicine
+@{
+    if (String.IsNullOrEmpty(ViewBag.Error))
+    {
+        
+
+            <div class="card-category-1">
+                <div class="basic-card basic-card-dark">     
+                    <div class="card-content">
+                        <form asp-action="Create" enctype="multipart/form-data">
+                            <label>Category</label>
+                            <select class="form-control" asp-for="CategoryId">
+                                @foreach (var category in ViewBag.categories)
+                                {
+                                    <option value="@category.Id">
+                                        @category.Name
+                                    </option>
+
+                                }
+                            </select>
+                           
+                            
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input asp-for="Name" required />
+                            </div> 
+
+                            <div class="form-group">
+                                <label>Price</label>
+                                <input asp-for="Price" required />
+                            </div>
+
+
+
+
+                            <br />
+
+                             <div class="form-group">
+                                 <label>Image</label>
+                                 <input asp-for="ImageFile" type="file" accept="image/png, image/jpeg">
+                             </div>
+
+                            <input class="btn btn-info" type="submit" value="Add">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+
+    }
+    else
+    {
+        <h1>@ViewBag.Error</h1>
+
+    }
+}

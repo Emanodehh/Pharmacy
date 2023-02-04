@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Phramacy_New.DTO.MedicineDTO>
+
+<table class="table table-dark m-2">
+    <thead>
+        <tr>
+            <th scope="col">Medicine Name</th>
+            <th scope="col">Category Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+            <th scope="col">
+                <a class="btn btn-success" href="../Medicines/Create">Add New Medicine</a>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+
+                <td>@m.MedicineName</td>
+                <td>@m.CategoryName</td>
+                <td>@m.Price</td>
+                <td>
+                    @if (!String.IsNullOrEmpty(m.ImageName))
+                    {
+                        <img width="100" height="100" src="~/MedicineImages/@m.ImageName" />
+                    }
+                </td>
+                <td>
+                    <div>
+                        <a class="btn btn-primary" href="../Medicines/Edit/@m.MedicineId">
+                            Edit
+                        </a>
+                    </div>
+                    <div>
+                        <a class="btn btn-danger" href="../Medicines/Delete/@m.MedicineId">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

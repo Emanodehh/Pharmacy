@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using Phramacy_New.Constants
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<div class="site-blocks-cover" style="background-image: url('~/../../images/lelas.jpg')
+">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 mx-auto order-lg-2 align-self-center">
+                <div class="site-block-cover-content text-center">
+                    <h2 class="sub-title">Effective Medicine, New Beauty Products Everyday</h2>
+                    <h1>We Care <br />Health&Beauty</h1>
+                    @if (HttpContextAccessor.HttpContext.Session.GetString(SesstionTitle.UserRole) == SesstionTitle.client)
+                    {
+                        <p>
+                            <a href="Store/Index" class="btn btn-primary px-5 py-3">
+                                Shop Now
+                            </a>
+                        </p>
+                    }
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@{
+    var meds = ViewBag.meds;
+    var beauties = ViewBag.beauties;
+    
+}
+
+
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="title-section text-center col-12">s
+                <h2 class="text-uppercase">New Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 block-3 products-wrap">
+                <h2 class="red-text" style="color: red;text-align:center">Medicines</h2>
+                <div class="nonloop-block-3 owl-carousel">
+
+                    @foreach (var m in meds)
+                    {
+                        <div class="text-center item mb-4">
+                            <h3 class="text-dark"><a href="shop-single.html"> @m.Name </a></h3>
+                            <p class="price">$@m.Price</p>
+                            <img width="200" height="200" src="~/MedicineImages/@m.ImageName" />
+
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 block-3 products-wrap">
+                <h2 class="red-text" style="color: red; text-align:center">Beauties</h2>
+                <div class="nonloop-block-3 owl-carousel">
+
+                    @foreach (var b in beauties)
+                    {
+                        <div class="text-center item mb-4">
+                            <h3 class="text-dark"><a href="shop-single.html"> @b.Name </a></h3>
+                            <p class="price">$@b.Price</p>
+                            <img width="200" height="200" src="~/BeautyImages/@b.ImageName" />
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="site-section bg-secondary bg-image" style="background-image: url('~/../../images/bg_2.jpg');">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <a href="#" class="banner-1 h-100 d-flex" style="background-image: url('~/../../images/hel3.jpg');">
+                    <div class="banner-1-inner align-self-center">
+                        <h2> Eman Pharmacy Products</h2>
+                        <p>
+                            The Eman phramacy products official website  provides various of pharmacy products wholesale from raw materials to machineries
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <a href="#" class="banner-1 h-100 d-flex" style="background-image: url('~/../../images/emann.jpg');">
+                    <div class="banner-1-inner ml-auto  align-self-center">
+                        <h2>Overview about us</h2>
+                        <p>
+                            It is a local company specialized in selling medical and cosmetic products.new bueties and midicines products everyday.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

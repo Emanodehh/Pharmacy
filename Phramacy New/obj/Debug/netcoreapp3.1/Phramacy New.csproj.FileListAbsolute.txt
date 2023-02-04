@@ -1,0 +1,98 @@
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.exe
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.deps.json
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.runtimeconfig.json
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.runtimeconfig.dev.json
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.pdb
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.Views.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Phramacy New.Views.pdb
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.AssemblyInfo.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\staticwebassets\Phramacy New.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\staticwebassets\Phramacy New.StaticWebAssets.xml
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\scopedcss\bundle\Phramacy New.styles.css
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.TagHelpers.input.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.TagHelpers.output.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.RazorCoreGenerate.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.RazorTargetAssemblyInfo.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.Views.pdb
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.csproj.CopyComplete
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.pdb
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Phramacy New.genruntimeconfig.cache
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Users\Login.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Medicines\Index.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Medicines\Delete.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Medicines\Edit.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Medicines\Create.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Users\Register.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Store\Index.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Store\Medicine.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Beauties\Index.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Beauties\Create.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Beauties\Delete.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Beauties\Edit.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Store\Beauty.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Store\CartMedicine.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Store\CartBeauty.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\Index.cshtml.g.cs
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Phramacy New\Phramacy New\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll

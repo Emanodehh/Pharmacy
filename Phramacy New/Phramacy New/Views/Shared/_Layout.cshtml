@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>We Care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/magnific-popup.css" />
+    <link rel="stylesheet" href="~/css/jquery-ui.css" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/css/aos.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+
+
+</head>
+
+
+<body>
+    @using Phramacy_New.Constants
+    @using Microsoft.AspNetCore.Http
+    @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+    <div class="site-wrap">
+
+
+        <div class="site-navbar py-2">
+
+            <div class="search-wrap">
+                <div class="container">
+                    <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+                    <form action="#" method="post">
+                        <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+                    </form>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <div class="site-logo">
+                            <a class="js-logo-clone">@Html.ActionLink(" We Care Health&Beauty", "Index", "Home")</a>
+                        </div>
+                    </div>
+                    <div class="main-nav d-none d-lg-block">
+                        <nav class="site-navigation text-right text-md-center" role="navigation">
+                            <ul class="site-menu js-clone-nav d-none d-lg-block">
+                                <li>
+                                    @Html.ActionLink("Home", "Index", "Home")
+                                </li>
+                                @if (HttpContextAccessor.HttpContext.Session.GetString(SesstionTitle.UserRole) == SesstionTitle.client)
+                                {
+                                    <li>
+                                        @Html.ActionLink("Store", "Index", "Store")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink("My Midicines", "CartMedicine", "Store")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink("My Beauties", "CartBeauty", "Store")
+                                    </li>
+                                }
+
+
+
+
+
+                                @if (HttpContextAccessor.HttpContext.Session.GetString(SesstionTitle.UserRole) == SesstionTitle.admin)
+                                {
+                                    <li>
+                                        @Html.ActionLink("Medicine Page", "Index", "Medicines")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink("Beauty Page", "Index", "Beauties")
+                                    </li>
+                                    
+
+                                }
+                                <li>
+                                    @Html.ActionLink("Feedback","Index","Feedback")
+                                </li>
+
+                                @if (String.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString(SesstionTitle.UserId)))
+                                {
+                                    <li>
+                                        @Html.ActionLink("Register", "Register", "Users")
+
+                                    </li>
+
+                                }
+
+                                <li>
+                                    @if (String.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString(SesstionTitle.UserId)))
+                                    {
+                                        @Html.ActionLink("Login", "Login", "Users")
+                                    }
+                                    else
+                                    {
+                                        @Html.ActionLink("Logout", "Logout", "Users")
+                                    }
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @RenderBody()
+
+        <footer id="footer" class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+                        <div class="block-7">
+                            <h3 class="footer-heading mb-4">About Us</h3>
+                            <p>
+                                It is a local company specialized in selling medical and cosmetic products. Its first branch was opened in Amman, and it has other branches in Irbid, Aqaba and Salt. It is currently heading to expand to reach a global level, not just local.
+                                we have devoted our energy and our competencies solely to one business: beauty. We have chosen to offer our expertise in the service of All persons of all age
+                                , meeting the infinite diversity of their beauty desires. We are committed to fulfilling this mission ethically and responsibly.
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="block-5 mb-5">
+                            <h3 class="footer-heading mb-4"> Info</h3>
+                            <ul class="list-unstyled">
+                                <li class="address">Jordan-Amman
+                                -irbid 
+                                -salt</li>
+                                <li class="phone"><a href="tel://+962797413897">+962 7  9741 3897</a></li>
+                                <li class="email">odeheman923@gmail.com</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="row pt-5 mt-5 text-center">
+                    <div class="col-md-12">
+                        <p>
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made
+                            with <i class="icon-heart" aria-hidden="true"></i> by <a href="#"
+                                                                                     class="text-primary">Eman Odeh</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/jquery-ui.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/aos.js"></script>
+
+    <script src="~/js/main.js"></script>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>

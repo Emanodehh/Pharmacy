@@ -1,0 +1,34 @@
+﻿<link rel="stylesheet" href="~/css/card.css" />
+
+@model Entities.Beauty
+@{
+    if (String.IsNullOrEmpty(ViewBag.Error))
+    {
+        @using (Html.BeginForm("Delete", "Beauties", FormMethod.Post))
+        {
+
+            <div class="card-category-1">
+
+                <div class="basic-card basic-card-dark">
+                    <div class="card-content">
+                        <span class="card-title">@Model.Name</span>
+                        <form>
+                            <p>medicin price: @Model.Price</p>
+
+                            <input class="btn btn-danger" type="submit" value="Delete">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        }
+
+    }
+    else
+    {
+        <h1>@ViewBag.Error</h1>
+
+    }
+}

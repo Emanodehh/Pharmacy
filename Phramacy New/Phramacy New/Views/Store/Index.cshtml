@@ -1,0 +1,58 @@
+﻿<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<div class="row">
+    <div class="col-md-12 block-3 products-wrap">
+        <div class="nonloop-block-3 owl-carousel">
+
+            @{
+                var meds = ViewBag.meds;
+                var beauties = ViewBag.Beauties;
+            }
+
+
+            @foreach (var m in meds)
+            {
+                <div class="text-center item mb-4">
+                    <h3 class="text-dark"><a> @m.MedicineName</a></h3>
+                    <h4>@m.CategoryName</h4>
+                    <p class="price">$@m.Price</p>
+                    <a href="Store/Medicine/@m.MedicineId">
+                        <i class='fas fa-shopping-cart'></i>
+                    </a>
+
+                    @if (!String.IsNullOrEmpty(m.ImageName))
+                    {
+                        <img width="200" height="200" src="~/MedicineImages/@m.ImageName" />
+                    }
+                </div>
+
+            }
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 block-3 products-wrap">
+        <div class="nonloop-block-3 owl-carousel">
+
+            @foreach (var b in beauties)
+            {
+                <div class="text-center item mb-4">
+                    <h3 class="text-dark"><a> @b.Name</a></h3>
+                    <p class="price">$@b.Price</p>
+                    <a href="Store/Beauty/@b.Id">
+                        <i class='fas fa-shopping-cart'></i>
+                    </a>
+
+                    @if (!String.IsNullOrEmpty(b.ImageName))
+                    {
+                        <img width="200" height="200" src="~/BeautyImages/@b.ImageName" />
+                    }
+                </div>
+
+            }
+        </div>
+    </div>
+</div>
+
+
